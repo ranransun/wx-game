@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5e8e",
+    "navigationBarTitleText": "猜拳游戏",
+    "navigationBarTextStyle":"white"
+  }
+}

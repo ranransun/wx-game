@@ -1,0 +1,74 @@
+/**index.wxss**/
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.game-wrap{
+  width: 100%;
+  height: 1400rpx;
+  background: greenyellow;
+}
+.game-head{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.title{
+  color: #000;
+  font-size: 24rpx;
+}
+.img-wrap{
+  width: 80%;
+  margin: 20rpx auto 0;
+  overflow: hidden;
+}
+image{
+  width: 280rpx;
+  height: 236rpx;
+}
+.my-choose{
+  width: 80%;
+  margin: 40rpx auto 0;
+  height: 600rpx;
+  background: yellow;
+}
+.choose-tit{
+  display: block;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: rebeccapurple;
+  text-align: center;
+}
+.result{
+  display: block;
+  width: 100%;
+  margin-top: 40rpx;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #f00;
+  font-size: 30rpx;
+}
+.choose-wrap{
+  width: 100%;
+  display: flex;
+}
+.block{
+  flex: 1;
+  text-align: center;
+}
+.choose-pic{
+  width: 140rpx;
+  height: 118rpx;
+}
+.btn-wrap{
+  width: 100%;
+  text-align: center
+}
+.btn{
+  margin-top: 50rpx;
+}

@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class='game-wrap'>
+  <view class='game-head'>
+    <text class='title'>你已经获胜了<text>{{winnum}}</text>次
+    </text>
+    <view class='img-wrap'>
+      <image src='{{changeSrc}}' class='fl'></image>
+      <image src='{{mychooseSrc}}' class='fr'></image>
+    </view>
+    <text class='result'>{{result}}</text>
+  </view>
+  <view class='my-choose'>
+  <text class='choose-tit'>出拳吧，你能赢</text>
+    <view class='choose-wrap'>
+      <view bindtap="myChoose" class="block" wx:for="{{src}}" wx:key="{{index}}" id="{{index}}">
+          <image class="choose-pic" src="{{item}}"></image>
+        </view>
+    </view>
+    <view class='btn-wrap'>
+      <button size='mini' class='btn' bindtap="again">再来一次</button>
+    </view>
+  </view>
+</view>
